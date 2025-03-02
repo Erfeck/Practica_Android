@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/calculadora_custom_dark_pressed_boton">
+    </item>
+    <item
+        android:drawable="@drawable/calculadora_custom_dark_boton">
+    </item>
+</selector>

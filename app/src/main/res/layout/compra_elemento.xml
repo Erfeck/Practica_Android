@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/CARDVIEW"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="16dp"
+    android:layout_marginVertical="10dp"
+    android:layout_marginHorizontal="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imgCompraElementoCategoria"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingStart="8dp"
+            app:srcCompat="@drawable/compra_lacteos" />
+
+        <TextView
+            android:id="@+id/tvCompraElementoCategoria"
+            style="@style/TEXTO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="50dp"
+            android:paddingTop="10dp"
+            android:text="Lacteos"
+            android:textSize="16dp" />
+
+        <CheckBox
+            android:id="@+id/cbCompraElementoSeleccionar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgCompraElementoCategoria"
+            android:buttonTint="?attr/colorPrimaryVariant"
+            android:paddingStart="8dp"
+            android:text="@string/strEjemplo"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

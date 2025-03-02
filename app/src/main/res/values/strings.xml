@@ -1,0 +1,67 @@
+<resources>
+    <!-- MainActivity && Home Activity-->
+    <string name="app_name">Util-Idades</string>
+
+    <!-- CalculadoraActivity-->
+    <string name="strEquals">=</string>
+    <string name="strComma">,</string>
+    <string name="str0">0</string>
+    <string name="strPlus">+</string>
+    <string name="strMinus">-</string>
+    <string name="strMultiplication">x</string>
+    <string name="str1">1</string>
+    <string name="str2">2</string>
+    <string name="str3">3</string>
+    <string name="str4">4</string>
+    <string name="str5">5</string>
+    <string name="str6">6</string>
+    <string name="str9">9</string>
+    <string name="str8">8</string>
+    <string name="str7">7</string>
+    <string name="strDivision">÷</string>
+    <string name="strCE">CE</string>
+    <string name="strDelete">DEL</string>
+    <string name="strTextResultado">0</string>
+
+    <!-- DivisasActivity-->
+    <string name="strCantidad">Cantidad:</string>
+    <string name="strDe">De</string>
+    <string name="strA">A</string>
+    <string name="strCalcular">Calcular</string>
+    <string name="strA2">"A "</string>
+    <string name="strConversorDivisad">Conversor de Divisas</string>
+    <string name="strEjemplo">Ejemplo</string>
+
+    <!-- ListaCompraActivity -->
+    <string name="strListaCompra">Lista de la Compra</string>
+    <string name="strNombreElemento">Nombre:</string>
+    <string name="strAñadirElemento">Añadir Elemento</string>
+    <string name="strCategoria">Categoria:</string>
+    <string name="strCrearCategoria">Crear Categoría</string>
+
+    <!-- ApiActivity -->
+    <!-- PermisosActivity -->
+    <string name="strHacerFoto">Hacer Foto</string>
+    <string name="strSeleccionarFecha">Elegir Fecha</string>
+    <string name="strVerFotos">Ver Fotos</string>
+    <string name="strRestar"><![CDATA[<]]></string>
+    <string name="strSumar"><![CDATA[>]]></string>
+
+    <!-- Conecta4Activity -->
+    <string name="strEmpezarJuego">Empezar Juego</string>
+    <string name="strTerminarJuego">Terminar Juego</string>
+    <string name="StrUtilidades">Util-Idades</string>
+
+    <!-- Settings -->
+    <string-array name="color_options">
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Naranja</item>
+    </string-array>
+    <string-array name="color_values">
+        <item>verde</item>
+        <item>azul</item>
+        <item>naranja</item>
+    </string-array>
+
+</resources>

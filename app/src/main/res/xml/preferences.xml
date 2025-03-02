@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Apariencia">
+        <SwitchPreferenceCompat
+            android:key="modo_oscuro"
+            android:title="Modo oscuro"
+            android:summary="Activar o desactivar el modo oscuro"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Color App">
+        <ListPreference
+            android:key="colorApp"
+            android:title="Color Predeterminado"
+            android:summary="Elige el color de la app"
+            android:defaultValue="verde"
+            android:entries="@array/color_options"
+            android:entryValues="@array/color_values"/>
+    </PreferenceCategory>
+</PreferenceScreen>
